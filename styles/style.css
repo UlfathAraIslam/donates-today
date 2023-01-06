@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* style header */
+.banner{
+    background-image: url('../images/donation6.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 550px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.btn-primary{
+    background-color: tomato;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    border-radius:5px;
+    color: white;
+    margin-top: 20px;
+}
+.banner-title{
+    
+text-align: center;
+color: white;
+font-size: 65px;
+}
+.banner-text{
+    font-size: 20px;
+    color: white;
+
+}
+/* style donate today */
+.donate-today{
+    text-align: center;
+    margin-top: 20px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.tk-active{
+    border: 1px solid tomato;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding: 10px;
+}
+hr{
+    width: 600px;
+    margin: 10px auto;
+}
+/* donate-plan */
+.donate-box{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.box{
+    border: 1px solid slateblue;
+    width: 300px;
+    height: 250px;
+    text-align: start;
+    padding: 20px;
+    
+    
+}
+.donate-plane{
+    margin-top: 30px;
+    text-align: center;
+}
+.blog-1,.blog-2{
+    display: flex;
+    margin: 40px 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+    
+}
+.update{
+    text-align: center;
+}
+.email-box{
+    background-color: antiquewhite;
+   width: 50%;
+   margin-left: 483px;
+}
+.bottom{
+    margin-left: -30px;
+}
+.email{
+    padding: 8.8px;
+    border: none;
+    background-color: gray;
+    border-radius: 4px;
+}
+footer{
+    background-color: darkblue;
+    padding: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
